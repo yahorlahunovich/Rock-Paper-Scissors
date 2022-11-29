@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="winning-page">
+      <p class="text">Draw</p>
+      <button class="nextGame">Next Game</button>
+    </div>
+    <main>
+      <header class="header">
+        <h1 class="name">Humanity <span class="versus">vs</span> computer</h1>
+        <p class="description">Can you win?</p>
+        <h2 class="choose">Choose your weapon</h2>
+      </header>
+      <div class="weapons">
+        <button class="weapon rock">
+          <img
+            src="https://lookingcoolonavespa.github.io/rock-paper-scissors/cave-painting.png"
+            alt="#"
+          />
+        </button>
+        <button class="weapon paper">
+          <img
+            src="https://lookingcoolonavespa.github.io/rock-paper-scissors/document.png"
+            alt="#"
+          />
+        </button>
+        <button class="weapon scissors">
+          <img
+            src="https://lookingcoolonavespa.github.io/rock-paper-scissors/scissors-opened-tool-shape.png"
+            alt="#"
+          />
+        </button>
+      </div>
+      <div class="score">
+        <div class="hum">
+          Humanity
+          <span class="num" data-hum-score>0</span>
+        </div>
+        <div class="comp">
+          Computer
+          <span class="num" data-comp-score>0</span>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="/javascript.js"></script>
+</html>
